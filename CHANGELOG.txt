@@ -1,8 +1,26 @@
-v19a (2018-02-13, Build #0073)
+v25a (2025-03-XX, Build #0077)
+   * Added build action for GitHub
+   * Updated to MATLAB 2024b
+   * Added version for Apple Silicon (ARM64)
+
+v23a (2021-07-21, Build #0076)
+   * Updated to MATLAB 2023a
+   * Bug fix : Fixed error in nifti headers caused by MATLAB 2023a expanding some ASCII characters (>127) into 2-byte Unicode
+
+v21a (2021-07-05, Build #0075)
+   * Version increment
+   * Bug fix : Corrected required flag description in help
+
+v19b (2019-12-31, Build #0074)
+   * Bug fix : Switch to mwSize instead of int in C files to fix MEX compile issue
+   
+v19a (2019-02-14, Build #0073)
    * Added ERFO odf flag (--erfo)
+
 v18a (2018-02-13, Build #0073)
    * Added 3D-SHORE radial order flag (--3dshore-radord).
    * Bug fix : Filename length checks added. 
+
 v17a (2017-06-09, Build #0072)
    * Added GQI based ODF estimation (--GQI).
    * Optimized BDP's memory usage. 
